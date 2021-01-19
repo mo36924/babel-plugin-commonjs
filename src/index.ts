@@ -1,6 +1,6 @@
 import type { default as babel, NodePath, PluginObj, PluginPass } from "@babel/core";
 
-type Options = {
+export type Options = {
   namedExports: { [key: string]: string[] };
 };
 
